@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <main>
+        <h1>Filmes Populares</h1>
+        <div class="input-container">
+            <input id="campo-pesquisa" type="text" placeholder="Digite algum filme para pesquisar..."><img id="lupa" src="./img/search-icon.svg" alt="Lupa" style="cursor: pointer;">
+        </div>
+        <div class="checkbox">
+            <img src="./img/Rectangle 3.svg" alt="" class="imagem-checkbox" onclick="this.classList.toggle('clicada')">
+            <p>Mostrar apenas meus filmes favoritos apenas</p>
+        </div>
+
+        <ul class="lista-de-cards">
+        </ul>
+    </main>
+    <script src="./js/botoes.js" type="module"></script>
+</body>
+</html>
